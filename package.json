@@ -1,0 +1,17 @@
+{
+  "name": "@lib/nullish",
+  "version": "1.0.0",
+  "description": "summarize into null",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "seyukun",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  }
+}
